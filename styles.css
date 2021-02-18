@@ -19,7 +19,7 @@
 	transform: translate(-200px,0px);
 }
 .img2 {
-	margin-left: 90px;
+	margin-left: 10%;
 	margin-top: -25px;
 	width: 20%;
 	height: 700px;
@@ -32,11 +32,11 @@
 	transform: translate(90px,0px);
 }
 .img2.unmove {
-	transform: translate(-90px,0px);
+	transform: translate(-140px,0px);
 }
 
 .img3 {
-	margin-left: 290px;
+	margin-left: 25%;
 	margin-top: -10px;
 	width: 25%;
 	height: 900px;
@@ -46,9 +46,27 @@
   	transition: transform 1000ms;
 }
 .img3.move {
-	transform: translate(100px,0px);
+	transform: translate(70px,0px);
 }
-
+.img3.unmove {
+	transform: translate(-140px,0px);
+}
+.img4{
+	margin-left: 42%;
+	margin-top: -10px;
+	width: 25%;
+	height: 900px;
+	z-index: 3;
+	position: fixed;
+	transform: translate(0, 0);
+  	transition: transform 1000ms;
+}
+.img4.move {
+	transform: translate(120px,0px);
+}
+.img4.unmove {
+	transform: translate(-140px,0px);
+}
 
 
 
@@ -57,15 +75,14 @@
 	width: 150px;
 	position: absolute;
 	z-index: 0;
-	margin-left: 2%;
+	margin-left: 20%;
 	margin-top: 300px;
 
 }
 .about-us{
 	width: 150px;
-
-	position: absolute;
+	position: fixed;
 	z-index: 0;
-	margin-left: 18.5%;
+	left: 40%;
 	margin-top: 300px;
 }

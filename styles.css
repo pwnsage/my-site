@@ -1,0 +1,73 @@
+body{
+	background-color: black;
+}
+.anput{
+	position: absolute;
+	z-index: 10;
+
+	
+}
+.img1 {
+	margin-top: -8px;
+	margin-left: -9px;
+	width: 10%;
+	height: 600px;
+	transform: translate(0, 0);
+  	transition: transform 1000ms;
+  	position: absolute;
+  	z-index: 1;
+  }
+.img1.move {
+	transform: translate(-90px,0px);
+}
+.img2 {
+	margin-left: 90px;
+	margin-top: -25px;
+	width: 20%;
+	height: 600px;
+	z-index: 3;
+	position: absolute;
+	transform: translate(0, 0);
+  	transition: transform 1000ms;
+}
+.img2.move {
+	transform: translate(70px,0px);
+}
+.img2.unmove {
+	transform: translate(-50px,0px);
+}
+
+.img3 {
+	margin-left: 290px;
+	margin-top: -70px;
+	width: 20%;
+	height: 700px;
+	z-index: 2;
+	position: absolute;
+	transform: translate(0, 0);
+  	transition: transform 1000ms;
+}
+.img3.move {
+	transform: translate(50px,0px);
+}
+
+
+
+
+.about {
+	background-color: white;
+	width: 150px;
+	position: absolute;
+	z-index: 0;
+	margin-left: 2%;
+	margin-top: 300px;
+
+}
+.aboutus{
+	width: 150px;
+
+	position: absolute;
+	z-index: 0;
+	margin-left: 18.5%;
+	margin-top: 300px;
+}

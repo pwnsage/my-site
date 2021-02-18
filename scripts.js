@@ -7,7 +7,7 @@ function myFunction() {
 console.log(screenWidth)
 var mouseX = (event.clientX*100)/screenWidth;
 var mouseY = event.clientY;
-let message = document.querySelector(".anput")
+let message = document.querySelector(".mouse-coordinates")
 message.value = mouseX
 
 	if (mouseX < 13.8){

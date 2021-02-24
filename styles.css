@@ -1,23 +1,35 @@
-
+/*delete*/
 .mouse-coordinates {
+	text-align: center;
+	color: black;
 	position: absolute;
 	z-index: 10;
-
-	
+	background-color: pink;
 }
+.screenwidth {
+	color: black;
+	position: absolute;
+	right: 10px;
+	z-index: 9;
+	background-color: pink;
+	text-align: center;
+}
+	
+
 .img1 {
 	margin-top: -8px;
 	margin-left: -9px;
 	width: 20%;
 	height: 780px;
-	transform: translate(0, 0);
-  	transition: transform 1000ms;
+	/*transform: translate(0, 0);
+  	transition: transform 1000ms;*/
   	position: fixed;
   	z-index: 1;
   }
-.img1.move {
+
+/*.img1.move {
 	transform: translate(-200px,0px);
-}
+}*/
 .img2 {
 	margin-left: 10%;
 	margin-top: -25px;
@@ -28,61 +40,107 @@
 	transform: translate(0, 0);
   	transition: transform 1000ms;
 }
+
 .img2.move {
 	transform: translate(90px,0px);
 }
-.img2.unmove {
+
+/*.img2.unmove {
 	transform: translate(-140px,0px);
-}
+}*/
 
 .img3 {
 	margin-left: 25%;
 	margin-top: -10px;
 	width: 25%;
-	height: 900px;
+	height: 700px;
 	z-index: 2;
 	position: fixed;
 	transform: translate(0, 0);
   	transition: transform 1000ms;
 }
+
 .img3.move {
 	transform: translate(70px,0px);
 }
+
 .img3.unmove {
 	transform: translate(-140px,0px);
 }
-.img4{
-	margin-left: 42%;
+
+.img4 {
+	margin-left: 45%;
 	margin-top: -10px;
 	width: 25%;
-	height: 900px;
+	height: 700px;
 	z-index: 3;
 	position: fixed;
 	transform: translate(0, 0);
   	transition: transform 1000ms;
 }
+
 .img4.move {
-	transform: translate(120px,0px);
+	transform: translate(70px,0px);
 }
 .img4.unmove {
+	transform: translate(-100px,0px);
+}
+.img5 {
+	margin-left: 64%;
+	margin-top: -7%;
+	width: 25%;
+	height: 750px;
+	z-index: 3;
+	position: fixed;
+	transform: translate(0, 0);
+  	transition: transform 1000ms;
+}
+
+.img5.move {
+	transform: translate(120px,0px);
+}
+.img5.unmove {
+	transform: translate(-20px,0px);
+}
+.img6 {
+	margin-left: 80%;
+	margin-top: -7%;
+	width: 25%;
+	height: 750px;
+	z-index: 2;
+	position: fixed;
+	transform: translate(0, 0);
+  	transition: transform 1000ms;
+}
+
+.img6.move {
+	transform: translate(120px,0px);
+}
+.img6.unmove {
 	transform: translate(-140px,0px);
 }
 
 
-
 .about-me {
 	background-color: white;
-	width: 150px;
+	width: 12%;
 	position: absolute;
 	z-index: 0;
 	margin-left: 20%;
 	margin-top: 300px;
 
 }
-.about-us{
-	width: 150px;
+.about-us {
+	width: 12%;
 	position: fixed;
 	z-index: 0;
 	left: 40%;
+	margin-top: 300px;
+}
+.img-projects{
+	width: 12%;
+	position: fixed;
+	z-index: 0;
+	left: 63%;
 	margin-top: 300px;
 }

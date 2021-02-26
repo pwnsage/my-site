@@ -45,9 +45,9 @@
 	transform: translate(90px,0px);
 }
 
-/*.img2.unmove {
+.img2.unmove {
 	transform: translate(-140px,0px);
-}*/
+}
 
 .img3 {
 	margin-left: 25%;
@@ -65,7 +65,7 @@
 }
 
 .img3.unmove {
-	transform: translate(-140px,0px);
+	transform: translate(-100px,0px);
 }
 
 .img4 {
@@ -87,9 +87,9 @@
 }
 .img5 {
 	margin-left: 64%;
-	margin-top: -7%;
+	margin-top: -5%;
 	width: 25%;
-	height: 750px;
+	height: 800px;
 	z-index: 3;
 	position: fixed;
 	transform: translate(0, 0);

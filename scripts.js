@@ -16,21 +16,30 @@ document.querySelector(".screenwidth").disabled = true;
 		document.querySelector(".img1").classList.add("move")
 		document.querySelector(".img2").classList.add("move")
 */
-		document.querySelector(".img2").classList.remove("unmove")
+		document.querySelector(".img2").classList.remove("move")
 		document.querySelector(".img3").classList.remove("move")
+		document.querySelector(".img4").classList.remove("move")
+		document.querySelector(".img5").classList.remove("move")
+		document.querySelector(".img2").classList.remove("unmove")
+		document.querySelector(".img3").classList.remove("unmove")
+		document.querySelector(".img4").classList.remove("unmove")
+		document.querySelector(".img5").classList.remove("unmove")
 
 	}
 
 	if ( 13.8 < mouseX && mouseX < 21.7){
 		document.querySelector(".img1").classList.remove("move")
+		document.querySelector(".img2").classList.add("unmove")
 		document.querySelector(".img2").classList.remove("move")
 		document.querySelector(".img3").classList.remove("move")
+		
+
 		document.querySelector(".img5").classList.remove("move")
 	
 	}
 
 	if (mouseX>21.7 && mouseX< 30){
-		document.querySelector(".img2.").classList.add("move")
+		document.querySelector(".img2").classList.add("unmove")
 		document.querySelector(".img3").classList.add("move")
 		document.querySelector(".img3").classList.remove("unmove")
 		document.querySelector(".img5").classList.remove("move")
@@ -78,8 +87,14 @@ document.querySelector(".screenwidth").disabled = true;
 		
 	}
 	if (mouseX>78){
+		document.querySelector(".img2").classList.remove("move")
+		document.querySelector(".img3").classList.remove("move")
+		document.querySelector(".img4").classList.remove("move")
 		document.querySelector(".img5").classList.remove("move")
-		
+		document.querySelector(".img2").classList.remove("unmove")
+		document.querySelector(".img3").classList.remove("unmove")
+		document.querySelector(".img4").classList.remove("unmove")
+		document.querySelector(".img5").classList.remove("unmove")
 	}
 
 

@@ -1,0 +1,165 @@
+body{
+	background-color: black;
+}
+span{
+	font-family: 'IBM Plex Mono', monospace;
+}
+a{
+	font-family: 'IBM Plex Mono', monospace;
+	text-decoration: none;
+}
+.move{
+	transform: translate(280px, 0);
+
+}
+.about-me{
+	position: absolute;
+	z-index: 1;
+	color:white;
+	top:25%;
+	left: 340px;
+	transition: transform 700ms;
+}
+
+.main{
+
+	position: absolute;
+	z-index: 1;
+	color:white;
+	top:5%;
+	left: 100px;
+}
+.projects{
+	position: absolute;
+	z-index: 1;
+	color:white;
+	top:35%;
+	left: 90px;
+}
+.name {
+	position: absolute;
+	color: white;
+	z-index: 1;
+	top:5%;
+	left: 360px;
+	transform: translate(0, 0);
+  	transition: transform 700ms;
+}
+.name.move{
+	transform: translate(280px, 0);
+
+}
+.surname {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	left: 347px;
+	top:15%;
+	transition: transform 700ms;
+}
+.my-name{
+	position: absolute;
+	color: white;
+	z-index: 1;
+	left: 365px;
+	top:8%;
+  	transition: transform 700ms;
+
+}
+.my-surname{
+	position: absolute;
+	color: white;
+	z-index: 1;
+	left: 330px;
+	top:18%;
+	transition: transform 700ms;
+}
+.detail {
+	background-color: black;
+	color: white;
+	position: absolute;
+	left: 360px;
+	top: 30%;
+
+  	transition: transform 700ms;
+}
+.detail.move-2{
+	transform: translate(280px, 110px);
+}
+
+
+.component-1 {
+	width: 30px;
+	position: absolute;	
+	z-index: 0;
+	left: 250px
+	
+}
+.component-2 {
+	color: white;
+	width: 30px;
+	left: 500px;
+	position: absolute;
+	transform: translate(0, 0);
+  	transition: transform 700ms;
+}
+
+.component-2.move{
+	color: white;
+	width: 30px;
+	position: absolute;
+	transform: translate(500px, 0);
+}
+
+.component-3 {
+	width: 30px;
+	top: 300px;
+	left: 250px;
+	position: absolute;
+}
+.component-4 {
+	width: 30px;
+	left: 500px;
+	top: 300px;
+	position: absolute;
+	transform: translate(0, 0);
+  	transition: transform 700ms;
+}
+.component-4.move{
+	transform: translate(500px, 0);
+}
+
+.menu-component-1{
+	position: absolute;
+	width: 30px;
+	
+}
+.menu-component-2{
+	position: absolute;
+	width: 30px;
+	left: 200px;
+	
+}
+.menu-component-3{
+	position: absolute;
+	width: 30px;
+	top:300px;
+	
+}
+.menu-component-4{
+	position: absolute;
+	width: 30px;
+	top: 300px;
+	left: 200px;
+	
+}
+.llama{
+	position: absolute;
+	width: 300px;
+	left: 550px;
+	transform: translate(0, 0);
+  	transition: transform 600ms;
+}
+.llama.move{
+	transform: translate(500px, 0);
+}

@@ -1,0 +1,49 @@
+/*delete*/
+.mouse-coordinates {
+	text-align: center;
+	color: black;
+	position: absolute;
+	z-index: 10;
+	background-color: pink;
+}
+.screenwidth {
+	color: black;
+	position: absolute;
+	right: 10px;
+	z-index: 9;
+	background-color: pink;
+	text-align: center;
+}
+/* ---------------------------------*/
+a{
+	text-decoration: none;
+}
+
+
+.about-me {
+	font-family: 'Playfair Display', serif;
+	font-size: 28px;
+	color: black;
+	left: 23%;
+	margin-top: 21%;
+	position: fixed;
+	z-index: 1;
+}
+
+.projects{
+	font-family: 'Playfair Display', serif;
+	font-size: 28px;
+	color: black;
+	left: 63%;
+	margin-top: 21%;
+	position: fixed;
+	z-index: 0;
+	
+}
+.llama{
+	left: 20%;
+	top: 45%;
+	position: absolute;
+	width: 3%;
+	z-index: 0;
+}

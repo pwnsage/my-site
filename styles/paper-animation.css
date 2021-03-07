@@ -1,0 +1,100 @@
+
+.img1 {
+	margin-top: -8px;
+	margin-left: -9px;
+	width: 20%;
+	height: 780px;
+  	position: fixed;
+  	z-index: 1;
+  }
+
+
+.img2 {
+	margin-left: 10%;
+	margin-top: -25px;
+	width: 20%;
+	height: 700px;
+	z-index: 3;
+	position: fixed;
+	transform: translate(0, 0);
+  	transition: transform 1000ms;
+}
+
+.img2.move {
+	transform: translate(70px,0px);
+}
+
+.img2.unmove {
+	transform: translate(-110px,0px);
+}
+
+.img3 {
+	margin-left: 25%;
+	margin-top: -10px;
+	width: 25%;
+	height: 700px;
+	z-index: 2;
+	position: fixed;
+	transform: translate(0, 0);
+  	transition: transform 1000ms;
+}
+
+.img3.move {
+	transform: translate(80px,0px);
+}
+
+.img3.unmove {
+	transform: translate(-100px,0px);
+}
+
+.img4 {
+	margin-left: 45%;
+	margin-top: -10px;
+	width: 25%;
+	height: 700px;
+	z-index: 3;
+	position: fixed;
+	transform: translate(0, 0);
+  	transition: transform 1000ms;
+}
+
+.img4.move {
+	transform: translate(70px,0px);
+}
+.img4.unmove {
+	transform: translate(-100px,0px);
+}
+.img5 {
+	margin-left: 64%;
+	margin-top: -5%;
+	width: 25%;
+	height: 800px;
+	z-index: 3;
+	position: fixed;
+	transform: translate(0, 0);
+  	transition: transform 1000ms;
+}
+
+.img5.move {
+	transform: translate(80px,0px);
+}
+.img5.unmove {
+	transform: translate(-20px,0px);
+}
+.img6 {
+	margin-left: 80%;
+	margin-top: -7%;
+	width: 25%;
+	height: 750px;
+	z-index: 2;
+	position: fixed;
+	transform: translate(0, 0);
+  	transition: transform 1000ms;
+}
+
+.img6.move {
+	transform: translate(120px,0px);
+}
+.img6.unmove {
+	transform: translate(-140px,0px);
+}

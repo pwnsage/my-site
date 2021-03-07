@@ -27,7 +27,7 @@ document.querySelector(".screenwidth").disabled = true;
 
 	}
 
-	if ( 13.8 < mouseX && mouseX < 21.7){
+	if ( 13.8 < mouseX && mouseX < 22.9){
 		document.querySelector(".img1").classList.remove("move")
 		document.querySelector(".img2").classList.add("unmove")
 		document.querySelector(".img2").classList.remove("move")
@@ -38,13 +38,13 @@ document.querySelector(".screenwidth").disabled = true;
 	
 	}
 
-	if (mouseX>21.7 && mouseX< 30){
+	if (mouseX>22.9 && mouseX< 31){
 		document.querySelector(".img2").classList.add("unmove")
 		document.querySelector(".img3").classList.add("move")
 		document.querySelector(".img3").classList.remove("unmove")
 		document.querySelector(".img5").classList.remove("move")
 	}
-	if(mouseX>30 && mouseX<36){
+	if(mouseX>31 && mouseX<36){
 		document.querySelector(".img2").classList.remove("unmove")
 		document.querySelector(".img4").classList.remove("move")
 		document.querySelector(".img4").classList.remove("unmove")
@@ -65,19 +65,20 @@ document.querySelector(".screenwidth").disabled = true;
 		document.querySelector(".img4").classList.add("move")
 		document.querySelector(".img5").classList.remove("move")
 	}
-	if(mouseX> 50 && mouseX <64){
+	if(mouseX> 50 && mouseX <63){
 		document.querySelector(".img3").classList.remove("unmove")
 		document.querySelector(".img3").classList.remove("move")
-		document.querySelector(".img4").classList.remove("unmove")
+		// document.querySelector(".img4").classList.remove("unmove")
+		document.querySelector(".img4").classList.add("move")
 		document.querySelector(".img5").classList.remove("move")
 		document.querySelector(".img5").classList.remove("unmove")
 	}
-	if(mouseX>64 && mouseX <73){
+	if(mouseX>63 && mouseX <70){
 		document.querySelector(".img4").classList.remove("move")
 		document.querySelector(".img4").classList.add("unmove")
 		document.querySelector(".img5").classList.add("move")
 	}	
-	if (mouseX>73 && mouseX<78){
+	if (mouseX>70&& mouseX<78){
 		document.querySelector(".img2").classList.remove("unmove")
 		document.querySelector(".img3").classList.remove("move")
 		document.querySelector(".img3").classList.remove("unmove")

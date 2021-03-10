@@ -12,6 +12,27 @@ a{
 	transform: translate(280px, 0);
 
 }
+.detail-button{
+	z-index: 5;
+	
+}
+.text-about-me{
+	position: absolute;
+	left: 300px;
+	top:200px;
+	width: 800px;
+	height: 90px;
+	font-family: 'IBM Plex Mono', monospace;
+	color: white;
+	z-index: 1;
+	display: none;
+	transition-delay: 3s;
+}
+.text-about-me.visible{
+	display: block;
+	transition-delay: 3s;
+}
+
 .about-me{
 	position: absolute;
 	z-index: 1;
@@ -42,13 +63,11 @@ a{
 	z-index: 1;
 	top:5%;
 	left: 360px;
-	transform: translate(0, 0);
+
   	transition: transform 700ms;
 }
-.name.move{
-	transform: translate(280px, 0);
 
-}
+
 .surname {
 	position: absolute;
 	z-index: 1;
@@ -108,7 +127,7 @@ a{
 	color: white;
 	width: 30px;
 	position: absolute;
-	transform: translate(500px, 0);
+	transform: translate(600px, 0);
 }
 
 .component-3 {
@@ -126,7 +145,7 @@ a{
   	transition: transform 700ms;
 }
 .component-4.move{
-	transform: translate(500px, 0);
+	transform: translate(600px, 0);
 }
 
 .menu-component-1{
@@ -154,12 +173,14 @@ a{
 	
 }
 .llama{
+	border-radius: 5px;
+	border: 4px double white;
 	position: absolute;
-	width: 300px;
+	height: 321px;
 	left: 550px;
 	transform: translate(0, 0);
   	transition: transform 600ms;
 }
 .llama.move{
-	transform: translate(500px, 0);
+	transform: translate(610px, 0);
 }

@@ -12,10 +12,6 @@ document.querySelector(".mouse-coordinates").disabled = true; //delete
 document.querySelector(".screenwidth").value = scrwid;
 document.querySelector(".screenwidth").disabled = true;
 	if (mouseX < 13.8){
-/*	if you want what would img(1 and 2) were moving 
-		document.querySelector(".img1").classList.add("move")
-		document.querySelector(".img2").classList.add("move")
-*/
 		document.querySelector(".img2").classList.remove("move")
 		document.querySelector(".img3").classList.remove("move")
 		document.querySelector(".img4").classList.remove("move")
@@ -32,8 +28,6 @@ document.querySelector(".screenwidth").disabled = true;
 		document.querySelector(".img2").classList.add("unmove")
 		document.querySelector(".img2").classList.remove("move")
 		document.querySelector(".img3").classList.remove("move")
-		
-
 		document.querySelector(".img5").classList.remove("move")
 	
 	}

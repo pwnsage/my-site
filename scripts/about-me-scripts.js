@@ -1,3 +1,20 @@
+window.onload = function() {
+    document.querySelector(".link-vk").onclick = function(){
+        return !window.open("https://vk.com/idzholdigalievaset");
+    }
+    document.querySelector(".link-inst").onclick = function(){
+        return !window.open("https://www.instagram.com/aset.zholdigaliev/");
+    }
+    document.querySelector(".link-wha").onclick = function(){
+        return !window.open("https://wa.me/77475294992");
+    }
+    document.addEventListener("mousemove", function() 
+{
+	if (document.querySelector(".detail").value == "hide detail"){
+		document.querySelector(".text-about-me.visible").style.transitionDelay = "0s"	}
+})
+}
+
 function move(){
 	var a = document.querySelector(".detail")
 	document.querySelector(".component-2").classList.toggle("move")
@@ -17,9 +34,11 @@ function move(){
    document.querySelector(".text-about-me").classList.add("visible")
 }, 600);
 	}
+	
 	else{
 		a.value = "in detail"
 		document.querySelector(".text-about-me").classList.remove("visible")
+
 	}
 
 }	

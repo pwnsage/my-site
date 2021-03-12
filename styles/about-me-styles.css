@@ -1,7 +1,9 @@
+
 body{
 	background-color: black;
 }
 span{
+
 	font-family: 'IBM Plex Mono', monospace;
 }
 a{
@@ -9,115 +11,136 @@ a{
 	text-decoration: none;
 }
 .move{
-	transform: translate(280px, 0);
+	transform: translate(25.5vw, 0);
 
 }
 .detail-button{
 	z-index: 5;
 	
 }
-.text-about-me{
-	position: absolute;
-	left: 300px;
-	top:200px;
-	width: 800px;
-	height: 90px;
-	font-family: 'IBM Plex Mono', monospace;
-	color: white;
-	z-index: 1;
-	display: none;
-	transition-delay: 3s;
-}
-.text-about-me.visible{
-	display: block;
-	transition-delay: 3s;
-}
 
-.about-me{
-	position: absolute;
-	z-index: 1;
-	color:white;
-	top:25%;
-	left: 340px;
-	transition: transform 700ms;
-}
+
 
 .main{
-
+	font: 100%;
 	position: absolute;
 	z-index: 1;
 	color:white;
 	top:5%;
-	left: 100px;
+	left: 7.48%;
+	width: 1.7%;
+	font-size: 1.2vw ;
 }
 .projects{
 	position: absolute;
 	z-index: 1;
 	color:white;
 	top:35%;
-	left: 90px;
+	left: 6.73%;
+	width: 1.7%;
+	font-size: 1.2vw;
 }
 .name {
 	position: absolute;
 	color: white;
 	z-index: 1;
 	top:5%;
-	left: 360px;
-
+	left: 26.1%;
+	font-size: 1.2vw;
   	transition: transform 700ms;
 }
 
-
-.surname {
-	position: absolute;
-	z-index: 1;
-	color: white;
-	left: 347px;
-	top:15%;
-	transition: transform 700ms;
-}
 .my-name{
 	position: absolute;
 	color: white;
 	z-index: 1;
-	left: 365px;
+	left: 26.7%;
 	top:8%;
   	transition: transform 700ms;
+  	font-size: 1.2vw;
 
 }
+.surname {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	left: 25.1%;
+	top:15%;
+	transition: transform 700ms;
+	font-size: 1.2vw;
+}
+
 .my-surname{
 	position: absolute;
 	color: white;
 	z-index: 1;
-	left: 330px;
+	left: 24.3%;
 	top:18%;
 	transition: transform 700ms;
+	font-size: 1.2vw;
 }
+.about-me{
+	position: absolute;
+	z-index: 1;
+	color:white;
+	top:25%;
+	left: 24.7%;
+	transition: transform 700ms;
+	font-size: 1.2vw;
+}
+
 .detail {
 	background-color: black;
 	color: white;
 	position: absolute;
-	left: 360px;
+	left: 26%;
 	top: 30%;
-
+	font-size: 1.2vw;
   	transition: transform 700ms;
 }
 .detail.move-2{
-	transform: translate(280px, 110px);
+	transform: translate(370%, 110px);
+}
+.text-about-me{
+	position: absolute;
+	left: 25%;
+	top: 30%;
+	width: 55%;
+	font-family: 'IBM Plex Mono', monospace;
+	color: white;
+	z-index: 1;
+	display: none;
+	transition-delay: 3s;
+	font-size: 1.2vw;
+}
+.text-about-me.visible{
+	display: block;
+	transition-delay: 3s;
+}
+.llama{
+	border-radius: 5px;
+	border: 4px double white;
+	position: absolute;
+	height: 49.5%;
+	left: 40%;
+	transform: translate(0, 0);
+  	transition: transform 600ms;
+}
+.llama.move{
+	transform: translate(44vw, 0);
 }
 
-
 .component-1 {
-	width: 30px;
+	width: 2.3%;
 	position: absolute;	
 	z-index: 0;
-	left: 250px
+	left: 18.5%;
 	
 }
 .component-2 {
 	color: white;
-	width: 30px;
-	left: 500px;
+	width: 2.3%;
+	left: 37%;
 	position: absolute;
 	transform: translate(0, 0);
   	transition: transform 700ms;
@@ -125,62 +148,126 @@ a{
 
 .component-2.move{
 	color: white;
-	width: 30px;
+	width: 2.3%;
 	position: absolute;
-	transform: translate(600px, 0);
+	transform: translate(44vw, 0);
 }
 
 .component-3 {
-	width: 30px;
-	top: 300px;
-	left: 250px;
+	width: 2.3%;
+	top: 47.1%;
+	left: 18.5%;
 	position: absolute;
 }
 .component-4 {
-	width: 30px;
-	left: 500px;
-	top: 300px;
+	width: 2.3%;
+	left: 37%;
+	top: 47.1%;
 	position: absolute;
 	transform: translate(0, 0);
   	transition: transform 700ms;
 }
 .component-4.move{
-	transform: translate(600px, 0);
+	transform: translate(44vw, 0);
 }
 
 .menu-component-1{
 	position: absolute;
-	width: 30px;
+	width: 2.3%;
 	
 }
 .menu-component-2{
 	position: absolute;
-	width: 30px;
-	left: 200px;
+	width: 2.3%;
+	left: 15%;
 	
 }
 .menu-component-3{
 	position: absolute;
-	width: 30px;
-	top:300px;
+	width: 2.3%;
+	top: 47.1%;
 	
 }
 .menu-component-4{
 	position: absolute;
-	width: 30px;
-	top: 300px;
-	left: 200px;
+	width: 2.3%;
+	top: 47.1%;
+	left: 15%;
 	
 }
-.llama{
-	border-radius: 5px;
-	border: 4px double white;
+
+
+.link-component-1{
 	position: absolute;
-	height: 321px;
-	left: 550px;
-	transform: translate(0, 0);
-  	transition: transform 600ms;
+	width: 2.3%;
+	top: 55%;
+	
 }
-.llama.move{
-	transform: translate(610px, 0);
+.link-component-2{
+	position: absolute;
+	width: 2.3%;
+	left: 15%;
+	top: 55%;
+	
+}
+.link-component-3{
+	position: absolute;
+	width: 2.3%;
+	top:93%;
+	
+}
+.link-component-4{
+	position: absolute;
+	width: 2.3%;
+	top: 93%;
+	left: 15%;
+	
+}
+.link-vk{
+	font-size: 100%;
+	position: absolute;
+	color: white;
+	z-index: 1;
+	top :60%;
+	left: 8%;
+	font-size: 1.2vw;
+}
+.img-link-vk{
+	position: absolute;
+	z-index: 1;
+	left: 6%;
+	width: 1.7%;
+	top: 60%;
+
+}
+.link-inst{
+	position: absolute;
+	color: white;
+	z-index: 1;
+	top:75%;
+	left: 7.5%; 
+	font-size: 1.2vw;
+}
+.img-link-inst{
+	position: absolute;
+	z-index: 1;
+	left: 5.5%;
+	width: 1.7%;
+	top: 74.5%;
+
+}
+.link-wha{
+	position: absolute;
+	color: white;
+	z-index: 1;
+	top:85%;
+	left: 6%;
+	font-size: 1.2vw;	
+}
+.img-link-wha{
+	position: absolute;
+	z-index: 1;
+	left: 4%;
+	width: 1.7%;
+	top: 84.5%;
 }
